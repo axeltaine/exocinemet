@@ -75,11 +75,11 @@
     <form action="suppresion.php" method="post" id="formulaire">
         <div class="form-row ">
             <div class="form-group col-md-6">
-                <label for="Movie_name">TITRE</label> :
-                <input type="text" name="Movie_name" id="Movie_name">
+                <label for="Id_movie">ID</label> :
+                <input type="text" name="Id_movie" id="Id_movie">
             </div>
             </div>
-            <button type="submit" class="btn btn-primary">Sup</button>
+            <button type="submit" class="btn btn-primary" name="erase">Sup</button>
     </form>
 
     <?php
