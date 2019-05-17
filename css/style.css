@@ -1,0 +1,92 @@
+/* CSS VARIABLES */
+:root {
+  --primary: #141414;
+  --light: #F3F3F3;
+  --dark: 	#686868;
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  /*background-color: var(--primary);*/
+  color: var(--light);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+/* HEADER */
+header {
+  position: fixed ;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  grid-gap:5px;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-areas: 
+   "nt mn mn sb . . . "; 
+  background-color: transparent;
+  margin-bottom: 0px;  
+}
+
+#navbarSupportedContent a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+
+#navbarSupportedContent a:hover{
+  color:grey;
+}
+
+.dropdown-menu {
+  color: white;
+  background-color: transparent;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+    color: black;
+}
+      
+  .bg1{
+    background-color:white;
+    margin-top:0;
+}
+.img{
+  height:100vh;
+  object-fit: cover;
+} 
+
+.img_caroussel{
+    width:500px;
+    height:700px;
+    object-fit:cover;
+}
+
+
+.carousel {
+    position: relative;
+    background: white;
+    padding-bottom:2%;
+    
+    
+  }
+  
+  .carousel-cell {
+    width: auto;
+    height:auto;
+    margin-right:55px;
+    background: transparent;
+    counter-increment: gallery-cell;
+  }
+  
+
+  .parallax-window {
+    min-height: 450px;
+    background: transparent;
+}

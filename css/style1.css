@@ -1,0 +1,113 @@
+/* CSS VARIABLES */
+:root {
+  --primary: #141414;
+  --light: #F3F3F3;
+  --dark: 	#686868;
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+  color: var(--light);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.header_films {
+  background-image: url("../img/test.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1%;
+  max-width: 100%;
+  min-height: 24em;
+ 
+}
+
+/* HEADER */
+header {
+  position: fixed ;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  grid-gap:5px;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-areas: 
+   "nt mn mn sb . . . "; 
+  background-color: transparent;
+  margin-bottom: 0px;  
+}
+
+#navbarSupportedContent a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+
+#navbarSupportedContent a:hover{
+  color:grey;
+}
+
+.dropdown-menu {
+  color: white;
+  background-color: transparent;
+}
+
+h1{
+
+  color: white;
+}
+
+
+/*MAIN CONTIANER */
+.main-container {
+  padding: 50px;
+}
+
+.box {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+}
+
+.modal-content {
+  background-color: black;
+}
+
+.box h1 {
+  transition: transform .3s;  
+}
+
+.box h1:hover {
+  transition: transform .3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);  
+  transform: scale(1.4);
+}
+
+.box img {
+  border-radius: 2px;
+  max-height: 9em;
+}
+
+
+
+
+
