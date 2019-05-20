@@ -79,7 +79,7 @@
                 <input type="text" name="Id_movie" id="Id_movie">
             </div>
             </div>
-            <button type="submit" class="btn btn-primary" name="erase">Sup</button>
+            <button type="submit" class="btn btn-primary" name="erase">Suprimer</button>
     </form>
 
     <?php

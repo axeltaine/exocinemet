@@ -19,4 +19,5 @@ if(isset($_POST['erase'])){
             echo "<h1>Aucune donnée à effacer</h1><br />";
           }
         }
+        header('Location: admin.php');
 ?>
