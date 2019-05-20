@@ -32,28 +32,24 @@
 
   <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
+    
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/THE-VILLAINESS.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Start</a>
+        <a class="btn btn-success btn-lg" href="film.php" role="button">Commencer une nouvelle aventure</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/hobbit_3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Start</a>
+        <a class="btn btn-success btn-lg" href="film.php" role="button">Commencer une nouvelle aventure</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/escobar.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Start</a>
+        <a class="btn btn-success btn-lg" href="film.php" role="button">Commencer une nouvelle aventure</a>
         </div>
       </div>
     </div>
@@ -67,36 +63,6 @@
     </a>
   </div>
 </div>
-
-
-
-  <div class="bg1">
-    <h1 class="text-center  mb-3">Nouveautés</h1>
-    <hr class="col-4" style="background-color: red;">
-
-    <section id="slider">
-      <input type="radio" name="slider" id="s1">
-      <input type="radio" name="slider" id="s2">
-      <input type="radio" name="slider" id="s3" checked>
-      <input type="radio" name="slider" id="s4">
-      <input type="radio" name="slider" id="s5">
-      <label for="s1" id="slide1"></label>
-      <label for="s2" id="slide2"></label>
-      <label for="s3" id="slide3"></label>
-      <label for="s4" id="slide4"></label>
-      <label for="s5" id="slide5"></label>
-    </section>
-  </div>
-
-
-  <div class="container-titre mx-auto my-5 text-center">
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/pop.jpeg"></div>
-
-    <hr class="col-4" style="background-color: red;">
-  </div>
-
-
-
 
   <?php include 'includes/footer.php'; ?>
 
